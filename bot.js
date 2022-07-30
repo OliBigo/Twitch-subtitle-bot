@@ -37,7 +37,7 @@ var isLive = false;
 setInterval(() => {
   request
     .get(api)
-    .set("Authorization", process.env.AUTHORIZATION)
+    .set("Authorization", "Bearer " + process.env.AUTHORIZATION)
     .set("Client-ID", process.env.CLIENT_ID)
     .then((response) => {
       if (response.body.data.length == 0) {
