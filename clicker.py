@@ -27,7 +27,7 @@ def main():
                 keyboard.press_and_release("f5")  # Refresh the stream page
                 refreshed = True
                 time.sleep(0.3)
-                # Double click on the .txt file on the desktop to open it in Word
+                # Double click on the shortcut of the .txt file on the desktop to open it in Word
                 click(1110, 740)
                 time.sleep(0.3)
                 click(1110, 740)
