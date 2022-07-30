@@ -27,4 +27,4 @@ python clicker.py
 If anyone is willing to help make this bot not require an auto clicker, it would be very appreciated!
 
 ## License
-[MIT](https://choosealicense.com/licenses/gpl-3.0/)
+[GNU](https://choosealicense.com/licenses/gpl-3.0/)
